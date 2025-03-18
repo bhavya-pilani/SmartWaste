@@ -1,0 +1,62 @@
+:root {
+  --bg-primary: #0f0f13;
+  --bg-secondary: #16161e;
+  --bg-tertiary: #1c1c26;
+  --text-primary: #e4e4e8;
+  --text-secondary: #9999a8;
+  --accent-primary: #00d0c0;
+  --accent-secondary: #7c5cff;
+  --accent-tertiary: #ff5cad;
+  --normal-color: #00d0c0;
+  --warning-color: #ffcc00;
+  --critical-color: #ff5c5c;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  --border-radius: 12px;
+  --transition: all 0.3s ease;
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --grad-bg: linear-gradient(135deg, #1c1c26, #16161e);
+  --grad-accent: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+
+  /*----- from login.html ------*/
+  --primary: #7928CA;
+  --primary-dark: #6923B0;
+  --secondary: #00D4FF;
+  --dark: #111418;
+  --darker: #0b0e12;
+  --light: #f8f9fa;
+  --gray: #343a40;
+  --gray-light: #495057;
+  --success: #4CD464;
+  --warning: #FFC107;
+  --danger: #FF3860;
+
+
+  /*---- registraion -----*/
+  --primary: #7928CA;
+    --primary-dark: #6923B0;
+    --secondary: #00D4FF;
+    --dark: #111418;
+    --darker: #0b0e12;
+    --light: #f8f9fa;
+    --gray: #343a40;
+    --gray-light: #495057;
+    --success: #4CD464;
+    --warning: #FFC107;
+    --danger: #FF3860;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--darker);
+  color: var(--light);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
